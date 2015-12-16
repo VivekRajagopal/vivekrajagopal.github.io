@@ -1,0 +1,35 @@
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<html>
+<head>
+<script language="JavaScript" src="createUser.js"></script>
+<script language="JavaScript" src="common.js"></script>
+<title>Girra Admin</title>
+<a HREF="index.html">Go back</a>
+<hr>
+<h1>Details</h1>
+</head>
+<body onLoad="init();">
+<form name="main" action="createUser.html">
+	<pre><b>	<!-- easier than organising in a table-->
+	Account Type: 	<select name="account_type" onChange="accountGroup();">
+					<option>Student</option>
+					<option>Staff</option>
+					</select>
+	Account Group:	<select name="account_group">
+					</select>
+
+	First Name:		<input type="text" name="firstname" value="foo">
+	Last Name:		<input type="text" name="lastname" value="bar">
+	Username:		<input type="text" name="username" value="tommy"> >> <input type="button" onClick="checkUser();" value="Check username">				
+	Password:		<input name="password" type="text" onFocus="passGen(8);" >	
+	Email:			<input type="text" name="email" value="biz">@det.nsw.edu.au	
+						
+	<input type="button" value="Go" onClick="validate();"></b>
+			
+	Debug: <input type="text" name="debug" size="50">	
+	</pre>
+
+</form>
+<input type="button" value = "   " onClick="openExcel();">
+</body>
+</html>
