@@ -1,0 +1,44 @@
+/*style for dbmanager project*/
+
+body
+	{
+	font-family: 		Arial;
+	color: 				#225599;
+	background-color: 	#EEEEFF;
+	}
+
+pre
+	{
+	font-family: 		Calibri;
+	color: 				#225599;
+	background-color: 	#EEEEFF;
+	}
+
+hr.bold
+	{
+	color:	#FF0000;	
+	}
+
+div.cont
+	{
+	width:			300px;
+	padding:		10px;
+	border-right:	2px solid red;
+	}
+	
+p.debug
+	{
+	font-family:	Courier new;
+	color:			#050505;
+	font-size:		15;
+	font-style:		italic;
+	border-top:		1px solid grey;
+	border-bottom:	1px solid grey;
+	padding:		2px;
+	}
+	
+.br
+	{
+	border-right: 	2px solid red;
+	padding-right:	25px;
+	}
