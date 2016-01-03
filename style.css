@@ -26,6 +26,11 @@ div.cont
 	border-right:	2px solid red;
 	}
 	
+div.player
+	{
+	width:		1280px;
+	}
+	
 p.debug
 	{
 	font-family:	Courier new;
