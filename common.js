@@ -5,7 +5,7 @@ function openExcel()
 		objExcel = new ActiveXObject("Excel.Application");
 		objExcel.Visible = true;
 		objExcel.Workbooks.Add();
-		objExcel.SaveAs("hello.xlsx");
+		//objExcel.SaveAs("hello.xlsx");
 		objExcel.Close();
 		}
 	catch(error)
